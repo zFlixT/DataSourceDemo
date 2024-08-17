@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|c:\\users\\oscar ardon\\desktop\\uni\\progra\\datasourcedemo\\datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|solutionrelative:datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|c:\\users\\oscar ardon\\desktop\\uni\\progra\\datasourcedemo\\datasourcedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\datasourcedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|solutionrelative:datasourcedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|c:\\users\\oscar ardon\\desktop\\uni\\progra\\datasourcedemo\\datasourcedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\datasourcedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|solutionrelative:datasourcedemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|c:\\users\\oscar ardon\\desktop\\uni\\progra\\datasourcedemo\\datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|solutionrelative:datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|c:\\users\\oscar ardon\\desktop\\uni\\progra\\datasourcedemo\\datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4B3206A-28E1-4F82-8778-1DDA664E9ABD}|DataSourceDemo\\DataSourceDemo.csproj|solutionrelative:datasourcedemo\\ejemploconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,40 +26,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\Program.cs",
-              "RelativeDocumentMoniker": "DataSourceDemo\\Program.cs",
-              "ToolTip": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\Program.cs",
-              "RelativeToolTip": "DataSourceDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EjemploConexion.cs",
+              "DocumentMoniker": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\EjemploConexion.cs",
+              "RelativeDocumentMoniker": "DataSourceDemo\\EjemploConexion.cs",
+              "ToolTip": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\EjemploConexion.cs",
+              "RelativeToolTip": "DataSourceDemo\\EjemploConexion.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T19:51:49.949Z",
+              "WhenOpened": "2024-08-17T20:31:55.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EjemploConexion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\EjemploConexion.cs",
               "RelativeDocumentMoniker": "DataSourceDemo\\EjemploConexion.cs",
-              "ToolTip": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\EjemploConexion.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "DataSourceDemo\\EjemploConexion.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\EjemploConexion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DataSourceDemo\\EjemploConexion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T19:51:03.571Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DataSourceDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\Program.cs",
+              "RelativeToolTip": "DataSourceDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:51:49.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\OSCAR ARDON\\Desktop\\Uni\\Progra\\DataSourceDemo\\DataSourceDemo\\Form1.cs",
               "RelativeDocumentMoniker": "DataSourceDemo\\Form1.cs",

@@ -31,5 +31,15 @@ namespace DataSourceDemo
             this.customersTableAdapter.Fill(this.northwindDataSet.Customers);
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customerIDLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
