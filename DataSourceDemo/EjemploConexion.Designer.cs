@@ -39,8 +39,8 @@
             System.Windows.Forms.Label countryLabel;
             System.Windows.Forms.Label phoneLabel;
             System.Windows.Forms.Label faxLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EjemploConexion));
             System.Windows.Forms.Label customerIDLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EjemploConexion));
             this.northwindDataSet = new DataSourceDemo.NorthwindDataSet();
             this.customersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.customersTableAdapter = new DataSourceDemo.NorthwindDataSetTableAdapters.CustomersTableAdapter();
@@ -175,6 +175,16 @@
             faxLabel.Size = new System.Drawing.Size(27, 13);
             faxLabel.TabIndex = 21;
             faxLabel.Text = "Fax:";
+            // 
+            // customerIDLabel
+            // 
+            customerIDLabel.AutoSize = true;
+            customerIDLabel.Location = new System.Drawing.Point(93, 70);
+            customerIDLabel.Name = "customerIDLabel";
+            customerIDLabel.Size = new System.Drawing.Size(68, 13);
+            customerIDLabel.TabIndex = 24;
+            customerIDLabel.Text = "Customer ID:";
+            customerIDLabel.Click += new System.EventHandler(this.customerIDLabel_Click);
             // 
             // northwindDataSet
             // 
@@ -400,16 +410,6 @@
             this.faxTextBox.Name = "faxTextBox";
             this.faxTextBox.Size = new System.Drawing.Size(100, 20);
             this.faxTextBox.TabIndex = 22;
-            // 
-            // customerIDLabel
-            // 
-            customerIDLabel.AutoSize = true;
-            customerIDLabel.Location = new System.Drawing.Point(93, 70);
-            customerIDLabel.Name = "customerIDLabel";
-            customerIDLabel.Size = new System.Drawing.Size(68, 13);
-            customerIDLabel.TabIndex = 24;
-            customerIDLabel.Text = "Customer ID:";
-            customerIDLabel.Click += new System.EventHandler(this.customerIDLabel_Click);
             // 
             // customerIDTextBox
             // 

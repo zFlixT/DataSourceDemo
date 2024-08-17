@@ -41,5 +41,11 @@ namespace DataSourceDemo
         {
 
         }
+        private void customersBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.customersBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.northwindDataSet);
+        }
     }
 }
