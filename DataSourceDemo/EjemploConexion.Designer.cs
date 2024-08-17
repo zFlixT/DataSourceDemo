@@ -58,6 +58,7 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.customersBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.companyNameTextBox = new System.Windows.Forms.TextBox();
             this.contactNameTextBox = new System.Windows.Forms.TextBox();
             this.contactTitleTextBox = new System.Windows.Forms.TextBox();
@@ -69,6 +70,7 @@
             this.phoneTextBox = new System.Windows.Forms.TextBox();
             this.faxTextBox = new System.Windows.Forms.TextBox();
             this.customerIDTextBox = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             companyNameLabel = new System.Windows.Forms.Label();
             contactNameLabel = new System.Windows.Forms.Label();
             contactTitleLabel = new System.Windows.Forms.Label();
@@ -224,7 +226,8 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.customersBindingNavigatorSaveItem});
+            this.customersBindingNavigatorSaveItem,
+            this.toolStripTextBox1});
             this.customersBindingNavigator.Location = new System.Drawing.Point(0, 0);
             this.customersBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.customersBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -331,6 +334,13 @@
             this.customersBindingNavigatorSaveItem.Text = "Guardar datos";
             this.customersBindingNavigatorSaveItem.Click += new System.EventHandler(this.customersBindingNavigatorSaveItem_Click);
             // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
+            this.toolStripTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cajaTextoID_KeyPress);
+            // 
             // companyNameTextBox
             // 
             this.companyNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "CompanyName", true));
@@ -419,11 +429,22 @@
             this.customerIDTextBox.Size = new System.Drawing.Size(100, 20);
             this.customerIDTextBox.TabIndex = 25;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(593, 183);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 56);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // EjemploConexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(customerIDLabel);
             this.Controls.Add(this.customerIDTextBox);
             this.Controls.Add(companyNameLabel);
@@ -490,5 +511,7 @@
         private System.Windows.Forms.TextBox phoneTextBox;
         private System.Windows.Forms.TextBox faxTextBox;
         private System.Windows.Forms.TextBox customerIDTextBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
     }
 }
